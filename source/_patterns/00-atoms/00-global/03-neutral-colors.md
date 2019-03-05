@@ -1,3 +1,0 @@
----
-title : Neutral Colors
----

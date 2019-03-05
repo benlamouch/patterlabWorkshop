@@ -1,3 +1,0 @@
----
-title : Accent Colors
----

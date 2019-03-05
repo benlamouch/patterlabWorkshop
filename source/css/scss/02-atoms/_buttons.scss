@@ -1,0 +1,16 @@
+.btn {
+  text-decoration: none;
+}
+
+.btn--primary {
+  background-color: $mc--med;
+  border: 1px solid $mc--med;
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: $nc--00;
+  transition: $tr--s;
+  &:hover {
+    background-color: transparent;
+    color: $mc--med;
+  }
+}

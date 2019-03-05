@@ -1,0 +1,67 @@
+//GLOBAL
+
+*{
+  box-sizing: border-box;
+}
+
+input:focus, select:focus, textarea:focus, button:focus{
+  outline: none;
+}
+
+body::-moz-selection {
+  background: lighten($mc--med, 20%);
+}
+
+body::selection {
+  background: lighten($mc--med, 20%);
+}
+
+body{
+  font-family: 'Heebo', arial, sans-serif;
+  color: $nc--100;
+  line-height: 1.6;
+  background: $nc--00;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: $mc--med;
+  font-family: 'Helvetica', arial, sans-serif;
+  font-weight : bold;
+  line-height: 1.2;
+}
+
+
+ul{
+  padding-left: 0;
+  list-style-type: none;
+}
+
+a{
+  color: $mc--med;
+  transition: $tr--s;
+  &:hover{
+    color: lighten($mc--med, 20%);
+  }
+}
+
+strong{
+  font-weight : bold;
+}
+
+hr{
+  border: 0;
+  height: 2px;
+  margin: 2rem auto;
+  background-color: $mc--med;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+table{
+  border-collapse: collapse;
+}
